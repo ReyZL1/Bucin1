@@ -75,12 +75,24 @@ section .gambar {
   flex: 1 1 45rem;
 }
 
+section .gambar2 {
+  flex: 1 1 45rem;
+}
+
+section .gambar3 {
+  flex: 1 1 45rem;
+}
+
+section .gambar{
+  width: 25%;
+}
+
 section .gambar2{
-  width: 50%;
+  width: 25%;
 }
 
 section .gambar3{
-  width: 50%;
+  width: 25%;
 }
 
 section .gambar img {
