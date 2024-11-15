@@ -71,34 +71,25 @@ html {
 
 }
 
-section .gambar {
-  flex: 1 1 45rem;
-}
-
-section .gambar2 {
-  flex: 1 1 45rem;
-}
-
+section .gambar,
+section .gambar2,
 section .gambar3 {
-  flex: 1 1 45rem;
+  width: 16%;
+  height: auto; /* Pastikan aspek rasio tetap terjaga */
+  max-width: 300px; /* Tetapkan batas maksimum untuk gambar */
 }
 
-section .gambar{
-  width: 25%;
+/* section .gambar1{
+  width: 50%;
 }
 
 section .gambar2{
-  width: 25%;
+  width: 50%;
 }
 
 section .gambar3{
-  width: 25%;
-}
-
-section .gambar img {
-  flex: 1 1 45rem;
-  padding: 0 1rem;
-}
+  width: 50%;
+} */
 
 section .ucapan {
   font-weight: bold;
